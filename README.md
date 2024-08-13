@@ -32,6 +32,6 @@ The player's guess is compared to the letters in the word. If there is a match, 
 **Scoring System Functions:** Scores are kept on a .txt using the shelve module. The high_score_open function is called during the instructions function so that the current high score can be saved. At the end of the function the file is closed. The high_score_save function is called in the play again function if the player's score is greater than the current high score to be used next time the game is played.
 
 ## Future Improvements
-A potential improvement that can be made to the program is the addition of difficulty levels. One way to implement this might be to associate word length with difficult.
+A potential improvement that can be made to the program is the addition of difficulty levels. One way to implement this might be to associate word length with difficulty.
 
 Another improvement could be filtering the word bank so that only basic forms of words are playable. For example, only the word "bike" could be used, but not "biking" or "biked". I think including all tenses of words make the game excessively difficult.
